@@ -12,11 +12,11 @@ const List = styled.ul`
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   max-width: 100vw;
   min-height: 50vh;
   @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(4, 1fr)
   }
 `;
 const containerVariants = {

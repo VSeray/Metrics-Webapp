@@ -12,7 +12,7 @@ const Container = styled.div`
   background-image: url(${Img});
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 55% 23%;
+  background-size: 50% 30%;
   height: 250px;
   color: #133b5c;
   cursor: pointer;

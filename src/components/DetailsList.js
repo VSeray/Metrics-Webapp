@@ -72,7 +72,7 @@ const containerVariants = {
   },
   visible: {
     x: 0,
-    transition: { ease: 'easeOut', duration: 1.2 },
+    transition: { ease: 'easeOut', duration: 2 },
   },
   exit: {
     x: '100vw',
