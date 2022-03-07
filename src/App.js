@@ -1,23 +1,34 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Forex from './components/Forex';
-import Majors from './components/Majors';
-import Crypto from './components/Crypto';
-import Stocks from './components/Stocks';
-import EFTs from './components/EFTs';
-import './App.css';
+import { AnimatePresence } from 'framer-motion';
+import styled from 'styled-components';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 
-const App = () => (
-  <div className="markets">
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/forex" element={<Forex />} />
-      <Route path="/majors" element={<Majors />} />
-      <Route path="/crypto" element={<Crypto />} />
-      <Route path="/stocks" element={<Stocks />} />
-      <Route path="/efts" element={<EFTs />} />
-    </Routes>
-  </div>
-);
+import { fetchStocks } from './redux/stocks/thunks/stock';
+import Details from './components/pages/Details';
+import Home from './components/pages/Home';
+
+const AppContainer = styled.div`
+  @media (min-width: 768px) {
+    padding: 0 250px;
+  }
+`;
+const App = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchStocks());
+  }, []);
+
+  return (
+    <AppContainer>
+      <AnimatePresence>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/details/:id" element={<Details />} />
+        </Routes>
+      </AnimatePresence>
+    </AppContainer>
+  );
+};
 
 export default App;
