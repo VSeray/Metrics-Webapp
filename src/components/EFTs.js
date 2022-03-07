@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import ShowButton from './ShowButton';
 import { categories } from './data';
 import Loading from './Loading';
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import '../styles/EFTs.css';
 
 const EFTs = () => {

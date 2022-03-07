@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Loader from 'react-loader-spinner';
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+import { RotatingLines } from 'react-loader-spinner';
 import '../styles/EFTs.css';
 
 const Loading = ({ body }) => (
   <ul className={`${body} loading`}>
     <li>
-      <Loader type="ThreeDots" color="var(--text-color)" height={50} width={50} />
+      <RotatingLines type="ThreeDots" color="var(--text-color)" height={50} width={50} />
     </li>
   </ul>
 );
