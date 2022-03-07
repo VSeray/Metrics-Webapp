@@ -55,7 +55,7 @@ Feel free to check the [issues page](https://github.com/VSeray/Metrics-Webapp/is
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance., in association with the Creative Commons [license](https://creativecommons.org/licenses/by-nc/4.0/) of the design.
 - This project is part of week 5 of module 3 in the Microverse study program.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to Code Reviewers for the insightful feedback.
