@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="835.21315" height="613.09812" viewBox="0 0 835.21315 613.09812" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     .blink {
-      animation: blink 1s infinite;
+      animation: blink 1.5s infinite;
     }
   
   @-moz-keyframes blink {
