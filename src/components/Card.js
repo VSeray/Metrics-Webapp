@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { BsArrowUp, BsArrowDown, BsArrowRightCircle } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Img from '../images/stock_card.png';
+import Img from '../images/stocks.png';
 
 const Container = styled.div`
   border: solid 1px #f5eedc;
@@ -12,9 +12,9 @@ const Container = styled.div`
   background-image: url(${Img});
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 50% 30%;
+  background-size: 50% 40%;
   height: 250px;
-  color: #133b5c;
+  color: #3b0437;
   cursor: pointer;
     > div:nth-of-type(1) {
       display: flex;

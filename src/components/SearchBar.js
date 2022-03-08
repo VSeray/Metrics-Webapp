@@ -7,11 +7,11 @@ const Search = styled.div`
   > input {
     width: 100%;
     padding: 8px;
-    border: solid 2px #ec54e0;
+    border: solid 2px #f729e5;
     font-family: 'Poppins', sans-serif;
     &:focus {
       outline: none;
-      border: solid 2px #A1B57D;
+      border: solid 2px #ffb6C1;
     }
   }
   > button {

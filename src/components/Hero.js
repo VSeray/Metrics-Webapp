@@ -3,7 +3,7 @@ import { BsArrowUp, BsArrowDown } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 
-import stockImg from '../images/stocks.png';
+import stockImg from '../images/shares.png';
 import { sumPrices, sumPercent, sumChanges } from '../utils/helper';
 
 const Section = styled.section`
@@ -17,10 +17,10 @@ const Section = styled.section`
     background-position: top center;
     background-size: 300px 250px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 8px;
     > h2 {
       font-size: 2rem;
-      margin: -20px 0 1px;
+      margin: -10px 0 2px;
     }
     > div {
       display: flex;
@@ -32,7 +32,7 @@ const Section = styled.section`
         }
     }
     @media (min-width: 768px) {
-      background-size: 450px 270px
+      background-size: 380px 270px
     }
   }
 `;
