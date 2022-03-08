@@ -15,7 +15,7 @@ background: rgba(51, 50, 50, 0.596);
   width: 90%;
   margin: 100px auto;
   text-align: center;
-  background: #fff;
+  background: #ec54e0;
   padding: 10px;
   border-radius: 7px;
    > div {
@@ -23,15 +23,15 @@ background: rgba(51, 50, 50, 0.596);
     justify-content: flex-end;
     button{
       border: none;
-      background: #fff;
+      background: #ec54e0;
       font-size: 25px;
       font-weight: bold;
       cursor: pointer;
       font-family: var(--font-1);
-      color: #ec54e0;
+      color: #000;
     }
     button:hover {
-      color: #e8e8a6;
+      color: #fff;
     }
    }
    @media (min-width: 768px) {

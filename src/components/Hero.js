@@ -3,7 +3,7 @@ import { BsArrowUp, BsArrowDown } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 
-import stockImg from '../images/stock.svg';
+import stockImg from '../images/stocks.png';
 import { sumPrices, sumPercent, sumChanges } from '../utils/helper';
 
 const Section = styled.section`
@@ -14,7 +14,7 @@ const Section = styled.section`
     height: 35vh;
     background-image: url(${(props) => (props.image ? 'hello.png' : stockImg)});
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top center;
     background-size: 300px 250px;
     color: #fff;
     padding: 10px 20px;
@@ -32,7 +32,7 @@ const Section = styled.section`
         }
     }
     @media (min-width: 768px) {
-      background-size: 700px 300px
+      background-size: 450px 270px
     }
   }
 `;

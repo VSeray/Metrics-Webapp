@@ -23,7 +23,7 @@ const List = styled.ul`
     padding: 15px 8px;
     font-size: 12px;
     background: #f865ec;
-    color: #133b5c;
+    color: #000;
     > span {
         border-right: solid 1px #f729e5;
         opacity: 0.4;
