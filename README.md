@@ -3,7 +3,7 @@ This app displays a list of popular stock market prices. Users can click on sele
 
 This project is part of the Microverse curriculum React Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development.
 ## Live Preview
-[Metrics Webapp](vseray-stock-metric-webapp.netlify.app)
+[Metrics Webapp](https://vseray-stock-metric-webapp.netlify.app/)
 ## Built With
 - React / Redux
 - JavaScript
