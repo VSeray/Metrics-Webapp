@@ -7,26 +7,27 @@ const Search = styled.div`
   > input {
     width: 100%;
     padding: 8px;
-    border: solid 2px #f729e5;
+    border: solid 2px #7df9ff;
     font-family: 'Poppins', sans-serif;
     &:focus {
       outline: none;
-      border: solid 2px #ffb6C1;
+      border: solid 2px #191970;
     }
   }
   > button {
     justify-self: center;
     width: 10%;
     border: none;
-    background: #f729e5;
-    color: #fff;
+    background: #7df9ff;
+    color: #000;
+    cursor:pointer;
   }
 `;
 const SearchBar = ({ handleSearch, data }) => (
   <Search>
     <input type="search" onChange={handleSearch} value={data} placeholder="Search..." />
     <button type="button">
-      <FaSearch color="#fff" />
+      <FaSearch color="#000" />
       .
     </button>
   </Search>

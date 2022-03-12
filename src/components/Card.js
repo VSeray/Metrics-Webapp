@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import Img from '../images/stocks.png';
 
 const Container = styled.div`
-  border: solid 1px #f5eedc;
-  background-color: #f729e5;
+  border: solid 1px #0f52ba;
+  background-color: #4169e1;
   padding: 5px 5px 10px 12px;
   border-radius: 5px;
   background-image: url(${Img});
@@ -14,7 +14,7 @@ const Container = styled.div`
   background-position: bottom right;
   background-size: 50% 40%;
   height: 250px;
-  color: #3b0437;
+  color: #000080;
   cursor: pointer;
     > div:nth-of-type(1) {
       display: flex;
@@ -27,7 +27,7 @@ const Container = styled.div`
       }
     }
     > span {
-      background: rgba(247, 250, 211, 0.637);
+      background: #7df9ff;
       border-radius: 8px;
       padding: 3px 10px;
       font-size: 10px;

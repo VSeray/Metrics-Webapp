@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <>
       <Header home />
-      <SearchBar handleSearch={handleSearch} data={value} />
       <Hero text="Today's Total" image stocks={stocks} />
+      <SearchBar handleSearch={handleSearch} data={value} />
       <CardList stocks={stocks} data={value} />
     </>
   );

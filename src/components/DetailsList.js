@@ -18,14 +18,14 @@ const List = styled.ul`
     display: grid;
     grid-template-columns: 48% 0.5% 12% 0.5% 1fr;
     gap: 0 10px;
-    border: solid 1px #f729e5;
-    border-left: solid 5px #f729e5;
+    border: solid 1px #000080;
+    border-left: solid 1px #000080;
     padding: 15px 8px;
     font-size: 12px;
-    background: #f865ec;
+    background: #ADD8E6;
     color: #000;
     > span {
-        border-right: solid 1px #f729e5;
+        border-right: solid 3px #000080;
         opacity: 0.4;
     }
     > div:nth-of-type(1) {
@@ -44,7 +44,7 @@ const List = styled.ul`
         margin-bottom: 5px;
         font-weight: 500;
         &:nth-of-type(1) {
-          background: #f729e5;
+          background: #7df9ff;
           border-radius: 8px;
           padding: 3px 5px;
           font-size: 10px;
@@ -107,7 +107,7 @@ const DetailsList = ({ details }) => {
                   second={detail.eps.toFixed(2)}
                   third={detail.ebitdaratio.toFixed(2)}
                 >
-                  <BsArrowUp color="green" />
+                  <BsArrowUp color="#006400" />
                   <BsArrowDown color="red" />
                 </DetailsCard>
                 <span />

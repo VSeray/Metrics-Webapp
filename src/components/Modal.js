@@ -15,7 +15,7 @@ background: rgba(51, 50, 50, 0.596);
   width: 90%;
   margin: 100px auto;
   text-align: center;
-  background: #ec54e0;
+  background: #afff;
   padding: 10px;
   border-radius: 7px;
    > div {
@@ -23,12 +23,12 @@ background: rgba(51, 50, 50, 0.596);
     justify-content: flex-end;
     button{
       border: none;
-      background: #ec54e0;
+      background: #afff;
       font-size: 25px;
       font-weight: bold;
       cursor: pointer;
       font-family: var(--font-1);
-      color: #000;
+      color: #0818a8;
     }
     button:hover {
       color: #fff;

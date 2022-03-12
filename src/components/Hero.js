@@ -14,10 +14,10 @@ const Section = styled.section`
     height: 35vh;
     background-image: url(${(props) => (props.image ? 'hello.png' : stockImg)});
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 300px 250px;
-    color: #fff;
-    padding: 20px 8px;
+    background-position: top left;
+    background-size: 300px 230px;
+    color: #7df9ff;
+    padding: 10px 8px;
     > h2 {
       font-size: 2rem;
       margin: -10px 0 2px;
@@ -27,12 +27,12 @@ const Section = styled.section`
       flex-direction: column;
       align-items: center;
       span:first-of-type {
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           font-weight: bold;
         }
     }
     @media (min-width: 768px) {
-      background-size: 380px 270px
+      background-size: 350px 250px
     }
   }
 `;
@@ -44,7 +44,7 @@ const Hero = ({ text, stocks }) => (
       <div data-testid="hero-details">
         <span>{`$${sumPrices(stocks)}`}</span>
         <span>
-          <BsArrowUp color="green" />
+          <BsArrowUp color="#7cfc00" />
           {`+${sumPercent(stocks)}`}
         </span>
         <span>

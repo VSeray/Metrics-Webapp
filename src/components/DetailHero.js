@@ -9,7 +9,7 @@ const Section = styled.section`
     flex-direction: column;
     align-items: flex-end;
     height: 30vh;
-    color: #fff;
+    color: #40e0d0;
     background-image: url(${(props) => (props.image ? 'hello.png' : Imgstock)});
     background-repeat: no-repeat;
     background-position: top left;
