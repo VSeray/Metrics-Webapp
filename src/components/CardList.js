@@ -10,7 +10,7 @@ import Spinner from './Spinner';
 const List = styled.ul`
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 100vw;

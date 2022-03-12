@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
+import Imgstock from '../images/stock.svg';
 
 const Section = styled.section`
   > div {
@@ -8,7 +9,11 @@ const Section = styled.section`
     flex-direction: column;
     align-items: flex-end;
     height: 30vh;
-    color: #133B5C;
+    color: #40e0d0;
+    background-image: url(${(props) => (props.image ? 'hello.png' : Imgstock)});
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 300px 200px;
     padding: 10px 20px;
     > h2 {
       font-size: 1.3rem;

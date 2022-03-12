@@ -2,19 +2,19 @@ import styled from 'styled-components';
 import { BsArrowUp, BsArrowDown, BsArrowRightCircle } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Img from '../images/stock_card.png';
+import Img from '../images/stocks.png';
 
 const Container = styled.div`
-  border: solid 1px #f5eedc;
-  background-color: #f729e5;
+  border: solid 1px #0f52ba;
+  background-color: #4169e1;
   padding: 5px 5px 10px 12px;
   border-radius: 5px;
   background-image: url(${Img});
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 50% 30%;
+  background-size: 50% 40%;
   height: 250px;
-  color: #133b5c;
+  color: #000080;
   cursor: pointer;
     > div:nth-of-type(1) {
       display: flex;
@@ -27,7 +27,7 @@ const Container = styled.div`
       }
     }
     > span {
-      background: rgba(247, 250, 211, 0.637);
+      background: #7df9ff;
       border-radius: 8px;
       padding: 3px 10px;
       font-size: 10px;

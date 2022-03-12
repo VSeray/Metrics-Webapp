@@ -3,7 +3,7 @@ import { BsArrowUp, BsArrowDown } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 
-import stockImg from '../images/stock.svg';
+import stockImg from '../images/shares.png';
 import { sumPrices, sumPercent, sumChanges } from '../utils/helper';
 
 const Section = styled.section`
@@ -15,24 +15,24 @@ const Section = styled.section`
     background-image: url(${(props) => (props.image ? 'hello.png' : stockImg)});
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 300px 250px;
-    color: #fff;
-    padding: 10px 20px;
+    background-size: 300px 230px;
+    color: #7df9ff;
+    padding: 10px 8px;
     > h2 {
       font-size: 2rem;
-      margin: -20px 0 1px;
+      margin: -10px 0 2px;
     }
     > div {
       display: flex;
       flex-direction: column;
       align-items: center;
       span:first-of-type {
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           font-weight: bold;
         }
     }
     @media (min-width: 768px) {
-      background-size: 700px 300px
+      background-size: 350px 250px
     }
   }
 `;
@@ -44,7 +44,7 @@ const Hero = ({ text, stocks }) => (
       <div data-testid="hero-details">
         <span>{`$${sumPrices(stocks)}`}</span>
         <span>
-          <BsArrowUp color="green" />
+          <BsArrowUp color="#7cfc00" />
           {`+${sumPercent(stocks)}`}
         </span>
         <span>

@@ -12,8 +12,8 @@ import Modal from '../Modal';
 
 const Topic = styled.div`
   padding: 12px;
-  border: solid 1px #ec54e0;
-  background: #ec54e0;
+  border: solid 1px #6495ed;
+  background: #0096ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,11 +24,14 @@ const Topic = styled.div`
     cursor: pointer;
     padding: 10px 20px;
     border: none;
-    background: #f729e5;
-    color: #fff;
+    background: #8a2be2;
+    color: #dda0dd;
     font-family: 'Poppins', sans-serif;
     border-radius: 3px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  button:hover {
+    color: #00ffff;
   }
 `;
 
