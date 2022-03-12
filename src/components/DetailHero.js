@@ -13,11 +13,11 @@ const Section = styled.section`
     background-image: url(${(props) => (props.image ? 'hello.png' : Imgstock)});
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 300px 200px;
+    background-size: 200px 200px;
     padding: 10px 20px;
     > h2 {
       font-size: 1.3rem;
-      margin: -7px 0 20px;
+      margin: -7px 10px 20px;
     }
     > div {
       display: flex;
@@ -26,6 +26,9 @@ const Section = styled.section`
           margin-bottom: 10px;
           font-weight: bold;
         }
+    }
+    @media (min-width: 768px) {
+      background-size: 350px 200px
     }
   }
 `;
