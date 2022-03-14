@@ -16,7 +16,7 @@ const Section = styled.section`
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 300px 230px;
-    color: #7df9ff;
+    color: #2646d3;
     padding: 10px 8px;
     > h2 {
       font-size: 2rem;

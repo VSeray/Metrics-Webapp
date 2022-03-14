@@ -63,7 +63,7 @@ const Card = ({
           {price}
         </span>
         <span>
-          <BsArrowUp color="" />
+          <BsArrowUp color="7cfc00" />
           {changes}
         </span>
         <span>
