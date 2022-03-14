@@ -22,7 +22,7 @@ const List = styled.ul`
     border-left: solid 1px #000080;
     padding: 15px 8px;
     font-size: 12px;
-    background: #ADD8E6;
+    background: #rgba(20, 58, 182, 0.637);
     color: #000;
     > span {
         border-right: solid 3px #000080;
@@ -107,7 +107,7 @@ const DetailsList = ({ details }) => {
                   second={detail.eps.toFixed(2)}
                   third={detail.ebitdaratio.toFixed(2)}
                 >
-                  <BsArrowUp color="#006400" />
+                  <BsArrowUp color="#7cfc00" />
                   <BsArrowDown color="red" />
                 </DetailsCard>
                 <span />

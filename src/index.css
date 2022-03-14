@@ -27,7 +27,7 @@ a {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #474aff;
+  background-color: rgba(7, 47, 182, 0.561);
   max-width: 100%;
   overflow-x: hidden;
 }

@@ -8,7 +8,7 @@ const Section = styled.section`
     flex-direction: column;
     align-items: flex-end;
     height: 30vh;
-    color: #40e0d0;
+    color: #2646d3;
     padding: 1px 5px;
     > h2 {
       font-size: 1.3rem;
